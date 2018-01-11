@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+	<div id="reqForm">
+		<form method="POST" action="processRequest">
+			Enter reimbursement amount: <br> <input type="number" min="0" name="amount" id="amount" required /> 
+			<br> Select reimbursement type: 
+				<br> Hotel <input type="radio" name="type" id="type" value="hotel" required />
+				<br> Food <input type="radio" name="type" id="type"	value="food" required/> 
+				<br> Transportation <input type="radio"	name="type" id="type" value="transportation" required/> 
+			<br> Give a brief description: <br> <input type="text" name="description" id="description" required /> <br>
+			<button id="reqBtn" type=submit>Submit Request</button>
+			
+		</form>
+		<br>
+	</div>
+</body>
+</html>
